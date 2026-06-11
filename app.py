@@ -93,7 +93,7 @@ if not st.session_state.analyzed and 'start_btn' in locals() and start_btn:
 
 # ==================== 5. 右侧主界面布局 (按照手绘图重构) ====================
 # 页面顶部标题
-st.markdown(f"<h1 style='text-align: center;'>🎓 智能全格式课件与论文大纲重构 Agent</h1>", unsafe_allow_allow_html=True)
+st.markdown(f"<h1 style='text-align: center;'>🎓 智能全格式课件与论文大纲重构 Agent</h1>", unsafe_allow_html=True)
 
 if st.session_state.analyzed:
     # A/B/C 三个选项卡切换
